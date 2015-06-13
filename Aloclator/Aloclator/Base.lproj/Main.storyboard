@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="66" width="572" height="31"/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsC-yo-xrw">
-                                <rect key="frame" x="31" y="195" width="538" height="18.5"/>
+                                <rect key="frame" x="31" y="195" width="120" height="18.5"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -44,14 +44,14 @@
                         <constraints>
                             <constraint firstItem="0Ig-e9-ZKz" firstAttribute="centerX" secondItem="JGd-aC-37B" secondAttribute="centerX" constant="-14" id="36W-jj-seg"/>
                             <constraint firstItem="JGd-aC-37B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="5fg-YP-K2J"/>
+                            <constraint firstItem="g6P-Fp-65S" firstAttribute="width" secondItem="nsC-yo-xrw" secondAttribute="width" id="8lZ-sy-ecp"/>
                             <constraint firstItem="JGd-aC-37B" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Ejb-Wv-Bob"/>
                             <constraint firstItem="g6P-Fp-65S" firstAttribute="top" secondItem="0Ig-e9-ZKz" secondAttribute="bottom" constant="15" id="Gmu-lt-LyZ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="nsC-yo-xrw" secondAttribute="trailing" constant="15" id="JwZ-0w-iwT"/>
+                            <constraint firstItem="nsC-yo-xrw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="KSU-GA-f9K"/>
                             <constraint firstItem="0Ig-e9-ZKz" firstAttribute="centerX" secondItem="g6P-Fp-65S" secondAttribute="centerX" constant="-14" id="dYM-qk-pbU"/>
                             <constraint firstItem="0Ig-e9-ZKz" firstAttribute="top" secondItem="JGd-aC-37B" secondAttribute="bottom" constant="8" id="edo-1P-gFh"/>
                             <constraint firstItem="0Ig-e9-ZKz" firstAttribute="width" secondItem="JGd-aC-37B" secondAttribute="width" id="sgd-x3-jk3"/>
                             <constraint firstItem="nsC-yo-xrw" firstAttribute="top" secondItem="g6P-Fp-65S" secondAttribute="bottom" constant="39" id="vVc-DI-qOT"/>
-                            <constraint firstItem="nsC-yo-xrw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="wcH-M3-EBj"/>
                             <constraint firstItem="JGd-aC-37B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xqI-FA-NWO"/>
                         </constraints>
                         <connections>
