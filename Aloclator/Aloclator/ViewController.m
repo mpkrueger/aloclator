@@ -43,7 +43,7 @@
     float alcoholPercentageOfWine = 0.13;
     float ouncesOfAlcoholPerWineGlass = ouncesInOneWineGlass * alcoholPercentageOfWine;
     float numberOfWineGlassesForEquivalentAlcoholAmount = ouncesOfAlcoholTotal / ouncesOfAlcoholPerWineGlass;
-    self.navigationItem.title = [NSString stringWithFormat:@"Wine (%.1f glasses)", numberOfWineGlassesForEquivalentAlcoholAmount];
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%.1f", (float) numberOfWineGlassesForEquivalentAlcoholAmount]];
 }
 - (IBAction)buttonPressed:(id)sender {
     [self.beerPercentTextField resignFirstResponder];
